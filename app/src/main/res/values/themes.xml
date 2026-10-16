@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ChangeLens" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cl_primary</item>
+        <item name="colorOnPrimary">@color/cl_on_primary</item>
+        <item name="colorPrimaryContainer">@color/cl_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/cl_on_primary_container</item>
+        <item name="colorSecondary">@color/cl_secondary</item>
+        <item name="colorOnSecondary">@color/cl_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/cl_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/cl_on_secondary_container</item>
+        <item name="android:colorBackground">@color/cl_background</item>
+        <item name="colorOnBackground">@color/cl_on_background</item>
+        <item name="colorSurface">@color/cl_surface</item>
+        <item name="colorOnSurface">@color/cl_on_surface</item>
+        <item name="colorSurfaceVariant">@color/cl_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/cl_on_surface_variant</item>
+        <item name="colorOutline">@color/cl_outline</item>
+        <item name="colorError">@color/cl_error</item>
+        <item name="colorOnError">@color/cl_on_error</item>
+        <item name="colorErrorContainer">@color/cl_error_container</item>
+        <item name="colorOnErrorContainer">@color/cl_on_error_container</item>
+        <item name="android:statusBarColor">@color/cl_surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.ChangeLens.Viewer">
+        <item name="android:windowBackground">@color/cl_viewer_background</item>
+        <item name="android:statusBarColor">@color/cl_viewer_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Widget.ChangeLens.CardHeader" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <style name="TextAppearance.ChangeLens.Section" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/cl_on_surface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

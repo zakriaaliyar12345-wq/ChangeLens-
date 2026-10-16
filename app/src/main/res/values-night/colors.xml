@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cl_primary">#7FD8C8</color>
+    <color name="cl_on_primary">#00332C</color>
+    <color name="cl_primary_container">#005044</color>
+    <color name="cl_on_primary_container">#7FD8C8</color>
+    <color name="cl_secondary">#FFB77C</color>
+    <color name="cl_on_secondary">#4A2500</color>
+    <color name="cl_secondary_container">#6D3900</color>
+    <color name="cl_on_secondary_container">#FFDCC2</color>
+    <color name="cl_background">#101418</color>
+    <color name="cl_on_background">#E0E3E0</color>
+    <color name="cl_surface">#101418</color>
+    <color name="cl_on_surface">#E0E3E0</color>
+    <color name="cl_surface_variant">#3F4946</color>
+    <color name="cl_on_surface_variant">#BEC9C5</color>
+    <color name="cl_outline">#88938F</color>
+    <color name="cl_error">#F2B8B5</color>
+    <color name="cl_on_error">#601410</color>
+    <color name="cl_error_container">#8C1D18</color>
+    <color name="cl_on_error_container">#F9DEDC</color>
+    <color name="cl_surface_container">#1C2124</color>
+    <color name="cl_surface_container_high">#262B2E</color>
+    <color name="cl_scrim">#99000000</color>
+    <color name="cl_slider_line">#FFFFFF</color>
+    <color name="cl_slider_handle">#7FD8C8</color>
+    <color name="cl_annotation">#FF8A80</color>
+    <color name="cl_transparent">#00000000</color>
+    <color name="cl_viewer_background">#101418</color>
+    <color name="cl_banner_offline_bg">#4A3200</color>
+    <color name="cl_banner_offline_fg">#FFE0B2</color>
+</resources>

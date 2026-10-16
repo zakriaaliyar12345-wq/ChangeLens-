@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.changelens.app.FormattersTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-16T00:03:41.818Z" hostname="DESKTOP-4EDFITL" time="0.011">
+  <properties/>
+  <testcase name="formatFileSize_fractionalKB" classname="com.changelens.app.FormattersTest" time="0.004"/>
+  <testcase name="formatFileSize_zero" classname="com.changelens.app.FormattersTest" time="0.0"/>
+  <testcase name="isoDate_format" classname="com.changelens.app.FormattersTest" time="0.001"/>
+  <testcase name="isoDate_containsDashes" classname="com.changelens.app.FormattersTest" time="0.001"/>
+  <testcase name="formatFileSize_bytes" classname="com.changelens.app.FormattersTest" time="0.001"/>
+  <testcase name="formatFileSize_gb" classname="com.changelens.app.FormattersTest" time="0.0"/>
+  <testcase name="formatFileSize_mb" classname="com.changelens.app.FormattersTest" time="0.001"/>
+  <testcase name="formatFileSize_usesUSLocale" classname="com.changelens.app.FormattersTest" time="0.001"/>
+  <testcase name="formatFileSize_exactKB" classname="com.changelens.app.FormattersTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

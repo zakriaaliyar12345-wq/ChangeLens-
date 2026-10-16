@@ -1,0 +1,8 @@
+com.changelens.app-pngs-0 C:\Users\Zakria\AndroidStudioProjects\ChangeLens\app\build\generated\res\pngs\release
+com.changelens.app-updated_navigation_xml-1 C:\Users\Zakria\AndroidStudioProjects\ChangeLens\app\build\generated\updated_navigation_xml\release
+com.changelens.app-packageReleaseResources-2 C:\Users\Zakria\AndroidStudioProjects\ChangeLens\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.changelens.app-packageReleaseResources-3 C:\Users\Zakria\AndroidStudioProjects\ChangeLens\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.changelens.app-release-4 C:\Users\Zakria\AndroidStudioProjects\ChangeLens\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.changelens.app-main-5 C:\Users\Zakria\AndroidStudioProjects\ChangeLens\app\src\main\res
+com.changelens.app-release-6 C:\Users\Zakria\AndroidStudioProjects\ChangeLens\app\src\release\res
+gradleHome-0 C:\Users\Zakria\.gradle

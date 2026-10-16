@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChangeLens</string>
+    <string name="app_tagline">ماشین زمان تصویری برای پروژه‌های شما</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">ChangeLens</string>
+    <string name="search_projects_hint">جستجوی پروژه‌ها</string>
+    <string name="filter_all">همه</string>
+    <string name="filter_active">فعال</string>
+    <string name="filter_archived">آرشیو شده</string>
+    <string name="sort_recent">تازه‌ترین</string>
+    <string name="sort_oldest">قدیمی‌ترین</string>
+    <string name="sort_title">عنوان الفا–ی</string>
+    <string name="sort_created">تازه ایجاد شده</string>
+    <string name="recent_projects">پروژه‌های اخیر</string>
+    <string name="empty_projects_title">هنوز پروژه‌ای نیست</string>
+    <string name="empty_projects_body">اولین پروژه خود را بسازید تا تغییرات را در طول زمان ثبت کنید — بازسازی، گیاهان، مرمت و غیره.</string>
+    <string name="empty_search_title">پروژه‌ای یافت نشد</string>
+    <string name="empty_search_body">عبارت جستجو را عوض کنید یا فیلترها را پاک کنید.</string>
+    <string name="create_project">ساخت پروژه</string>
+    <string name="offline_banner">شما آفلاین هستید. ChangeLens پورا آفلاین کار می‌کند.</string>
+    <string name="online_banner">بازگشت به آنلاین</string>
+    <string name="photos_count_one">%d عکس</string>
+    <string name="photos_count_many">%d عکس</string>
+    <plurals name="photo_count">
+        <item quantity="one">%d عکس</item>
+        <item quantity="other">%d عکس</item>
+    </plurals>
+    <string name="updated_at">تازه‌سازی: %1$s</string>
+    <string name="project_actions">کارهای پروژه</string>
+    <string name="content_description_project_cover">عکس جلد پروژه</string>
+    <string name="content_description_no_cover">بدون عکس جلد</string>
+
+    <!-- Navigation / menus -->
+    <string name="nav_settings">تنظیمات</string>
+    <string name="nav_help">راهنما</string>
+    <string name="nav_education">نمایش‌های درسی</string>
+    <string name="more_options">گزینه‌های بیشتر</string>
+    <string name="back">عقب</string>
+    <string name="close">بستن</string>
+    <string name="ok">تأیید</string>
+    <string name="cancel">لغو</string>
+    <string name="save">ذخیره</string>
+    <string name="delete">حذف</string>
+    <string name="edit">اصلاح</string>
+    <string name="retry">باز تلاش</string>
+    <string name="loading">در حال بارگذاری…</string>
+    <string name="yes">بلی</string>
+    <string name="no">نخیر</string>
+
+    <!-- Project form -->
+    <string name="create_project_title">پروژه جدید</string>
+    <string name="edit_project_title">اصلاح پروژه</string>
+    <string name="field_title">عنوان</string>
+    <string name="field_title_hint">مثلاً بازسازی آشپزخانه</string>
+    <string name="field_description">توضیحات</string>
+    <string name="field_description_hint">چه چیزی را ثبت می‌کنید؟</string>
+    <string name="field_category">دسته</string>
+    <string name="field_start_date">تاریخ شروع</string>
+    <string name="field_target_date">تاریخ هدف (اختیاری)</string>
+    <string name="field_cover_image">عکس جلد (اختیاری)</string>
+    <string name="pick_cover">انتخاب عکس جلد</string>
+    <string name="error_title_required">عنوان ضروری است</string>
+    <string name="error_title_too_long">عنوان بیش از حد دراز است (حداکثر ۸۰ نویسه)</string>
+    <string name="error_description_too_long">توضیحات بیش از حد دراز است (حداکثر ۵۰۰ نویسه)</string>
+    <string name="error_target_before_start">تاریخ هدف باید همان یا بعد از تاریخ شروع باشد</string>
+    <string name="project_saved">پروژه ذخیره شد</string>
+    <string name="project_deleted">پروژه حذف شد</string>
+    <string name="project_archived">پروژه آرشیو شد</string>
+    <string name="project_unarchived">پروژه بازیابی شد</string>
+    <string name="confirm_delete_title">پروژه حذف شود؟</string>
+    <string name="confirm_delete_message">«%1$s» و تمام عکس‌ها و یادداشت‌های آن برای همیشه حذف خواهد شد. این کار بازگشت‌پذیر نیست.</string>
+    <string name="archive_project">آرشیو پروژه</string>
+    <string name="unarchive_project">بازیابی پروژه</string>
+    <string name="delete_project">حذف پروژه</string>
+
+    <!-- Categories -->
+    <string-array name="project_categories">
+        <item>خانه و بازسازی</item>
+        <item>باغ و گیاهان</item>
+        <item>هنر و مرمت</item>
+        <item>کارهای دستی</item>
+        <item>مجموعه‌ها</item>
+        <item>وسیله نقلیه</item>
+        <item>تحصیل و کار</item>
+        <item>دیگر</item>
+    </string-array>
+
+    <!-- Project detail / timeline -->
+    <string name="project_detail_title">پروژه</string>
+    <string name="timeline_title">خط زمانی</string>
+    <string name="empty_timeline_title">هنوز عکسی نیست</string>
+    <string name="empty_timeline_body">همین حالا یک عکس اضافه کنید، بعد برگردید تا پیشرفت را ثبت و تغییرات را مقایسه کنید.</string>
+    <string name="add_photo">افزودن عکس</string>
+    <string name="take_photo">عکس گرفتن</string>
+    <string name="import_photo">آوردن از گالری</string>
+    <string name="camera_unavailable">برنامه دوربین در این آهنگ (دستگاه) نیست</string>
+    <string name="photo_import_failed">امکان آوردن این عکس نبود. شاید وجود ندارد یا بسیار بزرگ است.</string>
+    <string name="photo_saved">عکس به خط زمانی اضافه شد</string>
+    <string name="photo_deleted">عکس حذف شد</string>
+    <string name="permission_camera_denied">برای عکس گرفتن اجازه دوربین لازم است</string>
+    <string name="select_photos">انتخاب عکس‌ها</string>
+    <string name="selection_hint">دقیقاً دو عکس برای مقایسه انتخاب کنید</string>
+    <string name="selected_count">%d انتخاب شده</string>
+    <string name="compare_selected">مقایسه</string>
+    <string name="clear_selection">پاک کردن انتخاب</string>
+    <string name="need_two_photos">اول دقیقاً دو عکس انتخاب کنید</string>
+    <string name="photo_actions">کارهای عکس</string>
+    <string name="action_view_fullscreen">نمایش پورا صفحه</string>
+    <string name="action_edit_details">اصلاح جزئیات</string>
+    <string name="action_delete_photo">حذف عکس</string>
+    <string name="confirm_delete_photo_title">عکس حذف شود؟</string>
+    <string name="confirm_delete_photo_message">این عکس و یادداشت‌های آن از پروژه حذف خواهد شد.</string>
+    <string name="date_label">تاریخ</string>
+    <string name="caption_label">عنوان</string>
+    <string name="notes_label">یادداشت‌ها</string>
+    <string name="caption_hint">عنوان کوتاه، مثلاً «روز اول — تخریب»</string>
+    <string name="notes_hint">یادداشت‌های اختیاری</string>
+    <string name="pick_date">انتخاب تاریخ</string>
+    <string name="today">امروز</string>
+
+    <!-- Photo viewer -->
+    <string name="photo_viewer_title">عکس</string>
+    <string name="viewer_hint">برای بزرگ‌نمایی دو انگشت را نگه دارید. برای گزینه‌ها ضربه بزنید.</string>
+    <string name="content_description_photo">عکس پروژه</string>
+    <string name="photo_missing">این فایل عکس وجود ندارد</string>
+
+    <!-- Compare -->
+    <string name="compare_title">مقایسه</string>
+    <string name="mode_slider">سلایدر</string>
+    <string name="mode_overlay">پوشش شفاف</string>
+    <string name="comparison_mode">حالت مقایسه</string>
+    <string name="swap_images">عوض کردن عکس‌ها</string>
+    <string name="before_label">قبل</string>
+    <string name="after_label">بعد</string>
+    <string name="divider_position">موقعیت جداکننده</string>
+    <string name="overlay_opacity">شفافیت پوشش</string>
+    <string name="content_description_compare_view">عکس مقایسه قبل و بعد</string>
+    <string name="content_description_divider_handle">دستگیره را برای مقایسه قبل و بعد بکشید</string>
+    <string name="annotate">یادداشت نوشتن</string>
+    <string name="adding_annotation">برای گذاشتن یادداشت روی عکس ضربه بزنید</string>
+    <string name="annotation_text_hint">متن یادداشت</string>
+    <string name="annotation_added">یادداشت اضافه شد</string>
+    <string name="annotation_deleted">یادداشت حذف شد</string>
+    <string name="annotations_title">یادداشت‌ها</string>
+    <string name="no_annotations">هنوز یادداشتی نیست</string>
+    <string name="content_description_annotation">نشانگر یادداشت</string>
+    <string name="export_image">برون‌بری عکس</string>
+    <string name="export_report">برون‌بری گزارش</string>
+    <string name="export_started">در حال آماده‌سازی برون‌بری…</string>
+    <string name="export_image_done">عکس مقایسه ذخیره شد</string>
+    <string name="export_failed">برون‌بری ناکام شد</string>
+    <string name="share">شریک‌سازی</string>
+    <string name="share_image">شریک‌سازی عکس</string>
+    <string name="share_report">شریک‌سازی گزارش</string>
+    <string name="need_six_two_photos">برای مقایسه دست‌کم دو عکس اضافه کنید</string>
+
+    <!-- Settings -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_language">زبان</string>
+    <string name="settings_language_summary">زبان رابط را انتخاب کنید</string>
+    <string name="settings_theme">تم</string>
+    <string name="settings_theme_system">مطابق سیستم</string>
+    <string name="settings_theme_light">روشن</string>
+    <string name="settings_theme_dark">تیره</string>
+    <string name="settings_default_mode">حالت پیش‌فرض مقایسه</string>
+    <string name="settings_reminders">یادآوری پیشرفت</string>
+    <string name="settings_reminders_summary">یادآوری روزانه برای عکس گرفتن از پیشرفت</string>
+    <string name="settings_reminder_time">وقت یادآوری</string>
+    <string name="settings_storage">ذخیره‌سازی</string>
+    <string name="settings_storage_summary">اندازه ډیټابیس، تعداد عکس‌ها و فضای استفاده‌شده</string>
+    <string name="settings_privacy">محرمیت</string>
+    <string name="settings_privacy_summary">داده‌های شما چگونه ذخیره می‌شود</string>
+    <string name="settings_reset">بازنشانی تنظیمات</string>
+    <string name="settings_reset_summary">برگرداندن تنظیمات به حالت پیش‌فرض (داده‌های پروژه حفظ می‌شود)</string>
+    <string name="confirm_reset_title">تنظیمات بازنشانی شود؟</string>
+    <string name="confirm_reset_message">زبان، تم، یادآوری‌ها و دیگر تنظیمات به حالت پیش‌فرض برمی‌گردند. پروژه‌ها و عکس‌های شما تأثیر نمی‌پذیرند.</string>
+    <string name="settings_reset_done">تنظیمات بازنشانی شد</string>
+    <string name="language_english">English</string>
+    <string name="language_persian">Persian (Iran)</string>
+    <string name="language_dari">Dari (Afghanistan)</string>
+    <string name="notification_permission_needed">برای یادآوری‌ها اجازه اطلاع‌رسانی لازم است</string>
+    <string name="reminder_enabled">یادآوری روزانه فعال شد</string>
+    <string name="reminder_disabled">یادآوری روزانه غیرفعال شد</string>
+    <string name="notification_channel_reminders_name">یادآوری پیشرفت</string>
+    <string name="notification_channel_reminders_desc">یادآوری روزانه برای عکس گرفتن از پیشرفت پروژه شما</string>
+    <string name="notification_channel_exports_name">برون‌بری‌ها</string>
+    <string name="notification_channel_exports_desc">اطلاع‌رسانی‌ها وقتی برون‌بری‌ها آماده شریک‌سازی باشند</string>
+    <string name="reminder_title">وقت ثبت پیشرفت است</string>
+    <string name="reminder_text">ChangeLens را باز کنید و عکس جدید اضافه کنید تا خط زمانی تازه بماند.</string>
+
+    <!-- Storage / privacy -->
+    <string name="storage_projects">پروژه‌ها: %1$d</string>
+    <string name="storage_photos">عکس‌ها: %1$d</string>
+    <string name="storage_annotations">یادداشت‌ها: %1$d</string>
+    <string name="storage_database">ډیټابیس: %1$s</string>
+    <string name="storage_images">عکس‌ها: %1$s</string>
+    <string name="storage_exports">برون‌بری‌ها: %1$s</string>
+    <string name="storage_total">مجموعه ذخیره‌سازی برنامه: %1$s</string>
+    <string name="privacy_title">داده‌های شما روی دستگاه شما می‌ماند</string>
+    <string name="privacy_body">ChangeLens پروژه‌ها، عکس‌ها و تنظیمات را فقط روی این دستگاه ذخیره می‌کند — در یک ډیټابیس محلی SQLite و فایل‌های خصوصی برنامه. هیچ حساب کاربری و هیچ آپلود ابری وجود ندارد. عکس‌های اضافه‌شده در فضای خصوصی برنامه کپی می‌شوند تا هرگز نویسی نشوند. شما دقیق تعیین می‌کنید چه وقت برون‌بری‌ها را با برنامه‌های دیگر شریک‌سازی کنید.</string>
+
+    <!-- Report -->
+    <string name="report_title">گزارش پیشرفت</string>
+    <string name="report_generated">گزارش آماده است</string>
+    <string name="report_open">باز کردن گزارش</string>
+
+    <!-- Help -->
+    <string name="help_title">راهنما</string>
+    <string name="help_onboarding_title">به ChangeLens خوش آمدید</string>
+    <string name="help_onboarding_body">ChangeLens یک ماشین زمان تصویری است. پروژه بسازید، به‌مرور عکس اضافه کنید، بعد با سلایدر یا پوشش شفاف، دو عکس را کنار هم مقایسه کنید تا دقیق ببینید چه چیزی عوض شده است.</string>
+    <string name="help_step1">۱. یک پروژه با عنوان و دسته بسازید.</string>
+    <string name="help_step2">۲. عکس‌ها را با عنوان و تاریخ از دوربین یا گالری اضافه کنید.</string>
+    <string name="help_step3">۳. هر دو عکس را انتخاب کنید و با سلایدر یا پوشش مقایسه کنید.</string>
+    <string name="help_step4">۴. یادداشت اضافه کنید، عکس مقایسه را برون‌بری کنید یا گزارش پیشرفت را شریک‌سازی کنید.</string>
+    <string name="help_offline_title">پورا آفلاین کار می‌کند</string>
+    <string name="help_offline_body">همه‌چیز به‌صورت محلی ذخیره می‌شود. هرگز به انترنت نیازی نیست.</string>
+    <string name="help_got_it">فهمیدم</string>
+    <string name="help_dont_show_again">این خوش‌آمد را دیگر نشان مده</string>
+    <string name="help_open_demos">باز کردن نمایش‌های درسی</string>
+
+    <!-- Education / legacy demos -->
+    <string name="education_title">نمایش‌های درسی</string>
+    <string name="education_intro">این صفحه مفاهیم درسی را نشان می‌دهد. قابلیت‌های واقعی ChangeLens از APIهای نوین استفاده می‌کنند؛ APIهای قدیمی فقط برای یادگیری اینجا جداگانه نشان داده می‌شوند.</string>
+    <string name="demo_async_task">اجرای نمایش AsyncTask (قدیمی)</string>
+    <string name="demo_async_task_desc">شبیه‌سازی کار پس‌زمینه با API منسوخ AsyncTask و نشان دادن دیالوگ پیشرفت. کد واقعی از executor استفاده می‌کند.</string>
+    <string name="demo_loader">اجرای نمایش AsyncTaskLoader (قدیمی)</string>
+    <string name="demo_loader_desc">بارگذاری نکات با AsyncTaskLoader مدیریت‌شده از طریق LoaderManager و نشان دادن چرخه حیات بارگذار.</string>
+    <string name="demo_job_scheduler">زمان‌بندی کار نگهداری ذخیره‌سازی</string>
+    <string name="demo_job_scheduler_desc">صف کردن یک کار JobScheduler برای پاک‌سازی فایل‌های ریزعکس یتیم — یک کار واقعی تأخیری که برنامه استفاده می‌کند.</string>
+    <string name="demo_service">اجرای سرویس برون‌بری</string>
+    <string name="demo_service_desc">شروع سرویس برون‌بری گزارش در پس‌زمینه — همان سرویسی که برون‌بری‌های واقعی پروژه استفاده می‌کنند.</string>
+    <string name="demo_connectivity">وضعیت اتصال</string>
+    <string name="demo_result">نتیجه: %1$s</string>
+    <string name="demo_async_task_running">در حال شبیه‌سازی کار پس‌زمینه…</string>
+    <string name="demo_async_task_done">AsyncTask ختم شد (فقط نمایش API قدیمی)</string>
+    <string name="demo_loader_result">%1$d نکته از طریق AsyncTaskLoader بارگذاری شد</string>
+    <string name="demo_job_scheduled">کار نگهداری زمان‌بندی شد</string>
+    <string name="demo_service_started">سرویس برون‌بری برای تازه‌ترین پروژه شروع شد</string>
+    <string name="demo_service_none">اول یک پروژه بسازید تا سرویس برون‌بری نشان داده شود</string>
+
+    <!-- Errors -->
+    <string name="error_generic">مشکلی پیش آمد. لطفاً باز تلاش کنید.</string>
+    <string name="error_database">خطای ډیټابیس</string>
+    <string name="error_image_decode">امکان خواندن این عکس نبود</string>
+    <string name="error_file_missing">فایل یافت نشد</string>
+    <string name="error_no_project">پروژه یافت نشد</string>
+    <string name="error_storage_unavailable">ذخیره‌سازی در دسترس نیست</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.changelens.app.EntityModelTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-16T00:03:41.806Z" hostname="DESKTOP-4EDFITL" time="0.008">
+  <properties/>
+  <testcase name="annotation_fieldsRoundTrip" classname="com.changelens.app.EntityModelTest" time="0.002"/>
+  <testcase name="photoEntry_defaults" classname="com.changelens.app.EntityModelTest" time="0.001"/>
+  <testcase name="project_defaults" classname="com.changelens.app.EntityModelTest" time="0.001"/>
+  <testcase name="annotation_defaults" classname="com.changelens.app.EntityModelTest" time="0.001"/>
+  <testcase name="annotation_typeConstant" classname="com.changelens.app.EntityModelTest" time="0.0"/>
+  <testcase name="project_fieldsRoundTrip" classname="com.changelens.app.EntityModelTest" time="0.001"/>
+  <testcase name="photoEntry_fieldsRoundTrip" classname="com.changelens.app.EntityModelTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
